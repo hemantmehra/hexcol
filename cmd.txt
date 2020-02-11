@@ -1,0 +1,2 @@
+gcc -c dtype.c -o dtype.o -I writer.h
+gcc dtype.o test.c -o test.o -I writer.h
