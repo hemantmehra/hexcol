@@ -1,2 +1,3 @@
 gcc -c dtype.c -o dtype.o -I writer.h
-gcc dtype.o test.c -o test.o -I writer.h
+gcc -c writer3.c -o writer3.o -I writer.h
+gcc dtype.o writer3.o test.c -o test.o -I writer.h

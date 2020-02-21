@@ -8,5 +8,6 @@
 #define LONG	8
 
 int get_datatype(char *);
+int writer(char *, char *);
 
 #endif
