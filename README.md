@@ -5,8 +5,7 @@ A columnar database
 1. Storing tables by column rather than by rows. 
 
 Example:
-
-`
+```
  ID  |  Name  |  Email              | Age |
   1  | user1  | person1@example.com | 25  |
   2  | user2  | person2@example.com | 26  |
@@ -14,4 +13,4 @@ Example:
   .      .               .            .
   .      .               .            .
   .      .               .            .
-`
+```
